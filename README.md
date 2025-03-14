@@ -69,9 +69,11 @@ The data will be collected over 14 weeks from the start of the academic term.
 2. Insights into behavioral patterns based on environmental factors.
 3. A predictive model for estimating productivity based on weather conditions.
 
+<!--
 ## Installation
 
 To run this project locally, clone the repository:
 
 ```bash
 git clone https://github.com/your-username/weather-productivity-analysis.git
+-->
