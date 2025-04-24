@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-This project investigates the relationship between weather conditions and productivity, specifically screen time usage. By analyzing weather data alongside screen time statistics, we aim to determine if factors such as temperature, cloud cover, and sunlight hours impact work efficiency, social media usage, and entertainment consumption.
+This project explores the impact of daily weather conditions on productivity, specifically defined as the time spent on **work-related applications** (e.g., IDEs, Google Docs, email). By combining personal screen time and sleep data with weather statistics, the study aims to reveal how environmental factors—alongside academic events like exams—affect daily behavior and focus levels.
 
 ## Datasets
 
 ### 1. Weather Data
 
-Weather data will be sourced from Meteoroloji Genel Müdürlüğü (General Directorate of Meteorology). The dataset includes:
+Weather data will be sourced from **Meteoroloji Genel Müdürlüğü (General Directorate of Meteorology)**. The dataset includes:
 
 - **Date (YYYY-MM-DD)**
 - **Temperature (°C)**
@@ -18,56 +18,65 @@ Weather data will be sourced from Meteoroloji Genel Müdürlüğü (General Dire
 - **Wind Speed (m/s)**
 - **Weather Condition** (Clear, Rain, Snow, Cloudy, etc.)
 - **Sunlight Hours** (hours of daylight per day)
-- **Extreme Weather Conditions** (Snow, Rain, Storms, etc.)
 
-### 2. Productivity (Screen Time) Data
+### 2. Screen Time & Productivity Data
 
-Screen time data will be gathered from both my computer and phone. Additionally, my phone will record sleep data. The dataset includes:
+Screen time data will be gathered from both phone and computer applications. Sleep data will also be recorded. The dataset includes:
 
 - **Date (YYYY-MM-DD)**
 - **Total Screen Time** (hours)
-- **Time Spent on Work Apps** (Google Docs, IDEs, emails, etc.)
-- **Time Spent on Social Media** (Instagram, Twitter, etc.)
-- **Time Spent on Gaming Apps**
-- **Time Spent on YouTube/Entertainment**
-- **Break Frequency** (How often breaks are taken)
-- **Sleep Data** (Recorded from phone)
+- **Time on Work Apps** (Google Docs, IDEs, email)
+- **Time on Social Media** (Instagram, Twitter, etc.)
+- **Time on Gaming Apps**
+- **Time on YouTube/Entertainment**
+- **Break Frequency**
+- **Sleep Duration**
+- **Exam Period** (binary: exam week or not)
 
 ## Research Questions
 
-1. Does higher temperature correlate with more time on social media?
-2. Does cloudy weather increase gaming time?
-3. Does more sunlight improve work productivity?
-4. Do extreme weather conditions impact productivity and screen time?
+1. Does daily weather condition (e.g., clear, rainy, cloudy) affect time spent on work-related applications?
+2. Is social media usage correlated with temperature changes?
+3. Does cloudy weather lead to increased gaming time?
+4. Does more sunlight increase time spent on work apps?
+5. Do exam periods influence the relationship between weather and work app usage?
 
 ## Hypothesis
 
-- **Null Hypothesis (H0)**: Weather conditions have no significant impact on screen time productivity.
-- **Alternative Hypothesis (H1)**: Weather conditions significantly influence productivity and screen time usage.
+- **Null Hypothesis (H0)**: Weather conditions and exam periods have no significant impact on the time spent on work-related applications.
+- **Alternative Hypothesis (H1)**: Weather conditions and exam periods significantly affect the time spent on work-related applications.
+
+Separate hypotheses will also be tested for other screen time categories.
 
 ## Methods
 
 ### Data Collection
 
-- Weather data will be collected from Meteoroloji Genel Müdürlüğü (General Directorate of Meteorology).
-- Screen time data will be extracted from my computer and phone applications.
-- Sleep data will be recorded using my phone.
+- Weather data will be scraped daily from the General Directorate of Meteorology.
+- Screen time and sleep data will be exported weekly from device usage tracking tools.
+- Exam dates will be manually logged.
 
 ### Data Preparation and Analysis
 
-1. **Data Cleaning**: Remove missing values, format dates, and normalize data.
-2. **Exploratory Data Analysis (EDA)**: Identify trends, outliers, and distributions.
-3. **Correlation Analysis**: Examine relationships between weather variables and productivity. Categorize days into "High Productivity," "Low Productivity," and "Moderate Productivity."
+1. **Data Cleaning**: Remove missing values, format dates, and normalize features.
+2. **Exploratory Data Analysis (EDA)**:
+   - Visualize distributions and time trends.
+   - Use heatmaps and boxplots to explore relationships.
+3. **Statistical Analysis**:
+   - ANOVA or Kruskal-Wallis test to compare usage across weather types.
+   - Correlation matrices.
+   - Regression models including weather and exam period as features.
+4. **Optional**: Classification of days into work-dominant or entertainment-dominant using thresholds on work app usage.
 
 ## Data Collection Period
 
-The data will be collected over 14 weeks from the start of the academic term.
+The data will be collected **daily over a 14-week period**, aligned with the academic term, and will include exam periods.
 
 ## Expected Outcomes
 
-1. Identification of weather conditions that enhance or hinder productivity.
-2. Insights into behavioral patterns based on environmental factors.
-3. A predictive model for estimating productivity based on weather conditions.
+1. Identification of weather conditions that promote or hinder time spent on work apps.
+2. Behavioral insights related to environmental and academic factors.
+3. A simple predictive model estimating daily productivity based on weather and calendar features.
 
 <!--
 ## Installation
@@ -76,4 +85,3 @@ To run this project locally, clone the repository:
 
 ```bash
 git clone https://github.com/your-username/weather-productivity-analysis.git
--->
