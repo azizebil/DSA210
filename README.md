@@ -53,7 +53,7 @@ Separate hypotheses will also be tested for other screen time categories.
 - Weather data will be scraped daily from the General Directorate of Meteorology.
 - Screen time and sleep data will be exported weekly from device usage tracking tools.
 - Exam dates will be manually logged.
-[📁 View Data Folder](./data)
+- [📁 View Data Folder](./data)
 
 ### Data Preparation and Analysis
 
