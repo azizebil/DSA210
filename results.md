@@ -12,6 +12,9 @@ There is **no statistically significant** difference in productivity time across
 
 ➤ We **fail to reject the null hypothesis (H₀)** — this suggests that weather type (in this dataset) does not have a strong measurable impact on work-related app usage.
 
+📦 **Boxplot:**
+![Weather vs Productivity](images/Productivity_Time_across_Different_Weather_Types.png)
+
 ---
 
 ## 2. 🔍 Chi-Square Test – Exam Period vs Dominant Activity
@@ -29,21 +32,22 @@ There is **no statistically significant** relationship between whether it's an e
 
 ➤ We **fail to reject the null hypothesis (H₀)** — suggesting that the exam period, in this case, does not shift behavior significantly from entertainment to work or vice versa.
 
+📊 **Bar Chart:**
+![Exam Period Activity](images/Dominant_Activity_During_Exam_vs_Non-Exam_Periods.png)
+
 ---
 
-## 📊 Supporting Visualizations
+## 📈 Additional Visual Insights
 
-- **Distribution Plots:**  
-  Show variation in productivity and entertainment time among days
+### Distribution of Productivity Time
+![Productivity Histogram](images/Distribution_of_Productivity_Time.png)
 
-- **Boxplot:**  
-  Productivity across `rain`, `rain+snow`, and `clear` days — no clear group difference
+### Distribution of Entertainment Time
+![Entertainment Histogram](images/Distribution_of_Entertainment_Time.png)
 
-- **Correlation Heatmap:**  
-  Temperature showed weak correlation with screen categories; strong correlations seen among screen activity types
-
-- **Bar Plot:**  
-  Number of work/entertainment dominant days during exam vs non-exam periods — similar distribution visually and statistically
+### Correlation Heatmap
+Shows the relationship between productivity, screen activity types, and weather-related features:
+![Correlation Heatmap](images/Correlation_Heatmap.png)
 
 ---
 
