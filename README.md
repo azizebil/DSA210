@@ -62,9 +62,9 @@ Separate hypotheses will also be tested for other screen time categories.
    - Visualize distributions and time trends.
    - Use heatmaps and boxplots to explore relationships.
 3. **Statistical Analysis**:
-   - ANOVA or Kruskal-Wallis test to compare usage across weather types.
-   - Correlation matrices.
-   - Regression models including weather and exam period as features.
+   - ANOVA: Used to test if productivity differs significantly across weather conditions.
+   - Chi-Square Test: Examined if exam periods influence dominant activity patterns.
+   - Correlation Matrix: Explored relationships between weather features, productivity, sleep, and screen time.
 4. **Optional**: Classification of days into work-dominant or entertainment-dominant using thresholds on work app usage.
 
 ## Data Collection Period
