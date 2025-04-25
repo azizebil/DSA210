@@ -49,11 +49,11 @@ Screen time data will be gathered from both phone and computer applications. Sle
 Separate hypotheses will also be tested for other screen time categories.
 
 ### Data Collection
+[📁 View Data Folder](./data)
 
 - Weather data will be scraped daily from the General Directorate of Meteorology.
 - Screen time and sleep data will be exported weekly from device usage tracking tools.
 - Exam dates will be manually logged.
-- [📁 View Data Folder](./data)
 
 ### Data Preparation and Analysis
 
