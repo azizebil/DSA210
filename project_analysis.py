@@ -44,7 +44,7 @@ plt.show()
 plt.figure(figsize=(10, 6))
 weather_types = merged_data['preciptype'].unique()
 weather_dict = {ptype: merged_data[merged_data['preciptype'] == ptype]['Productivity (min)'] for ptype in weather_types}
-plt.boxplot(weather_dict.values(), labels=weather_dict.keys())
+plt.boxplot(weather_dict.values(), tick_labels=weather_dict.keys())
 plt.xticks(rotation=45)
 plt.title('Productivity Time across Different Weather Types')
 plt.xlabel('Weather Type')
