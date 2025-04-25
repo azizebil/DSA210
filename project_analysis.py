@@ -1,5 +1,3 @@
-
-# --- YOUR CODE STARTS HERE ---
 from google.colab import files
 uploaded = files.upload()
 
@@ -83,7 +81,7 @@ if a_p < 0.05:
 else:
     print("Result: No significant differences between weather types (fail to reject H0)")
 
-# Hypothesis Testing 6: Chi-Square Test - Work-dominant vs Entertainment-dominant Days
+# Hypothesis Testing 2: Chi-Square Test - Work-dominant vs Entertainment-dominant Days
 merged_data['Dominant_Activity'] = np.where(merged_data['Productivity (min)'] > merged_data['Entertainment (min)'], 'Work', 'Entertainment')
 
 contingency_table = pd.crosstab(merged_data['Dominant_Activity'], merged_data['Exam Period (3-day)'])
