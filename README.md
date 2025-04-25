@@ -53,6 +53,7 @@ Separate hypotheses will also be tested for other screen time categories.
 - Weather data will be scraped daily from the General Directorate of Meteorology.
 - Screen time and sleep data will be exported weekly from device usage tracking tools.
 - Exam dates will be manually logged.
+[📁 View Data Folder](./data)
 
 ### Data Preparation and Analysis
 
@@ -83,23 +84,27 @@ The data will be collected **daily over a 14-week period**, aligned with the aca
   - ANOVA (weather vs productivity)
   - Chi-Square Test (exam period vs dominant activity)
 
-### Results Summary
+## Results Summary
 
-## ANOVA: Weather vs Productivity
+### ANOVA: Weather vs Productivity
 - F-statistic: (insert your value)
 - p-value: (insert your value)
-- **Interpretation**: 
-  - (State whether productivity differs significantly across weather types based on p-value)
+- **Interpretation:**  
+  ➤ **No statistically significant difference** in productivity across different weather types.  
+  ➤ We **fail to reject the null hypothesis**.
 
-## Chi-Square: Exam Period vs Dominant Activity
+### Chi-Square: Exam Period vs Dominant Activity
 - Chi-square statistic: (insert your value)
 - p-value: (insert your value)
-- **Interpretation**:
-  - (State if there's a significant relationship between exam periods and productivity/entertainment dominance)
+- **Interpretation:**  
+  ➤ **No significant relationship** between exam periods and whether a day is work- or entertainment-dominant.  
+  ➤ We **fail to reject the null hypothesis**.
 
 > 📄 See full detailed results and plots here: [results.md](results.md)
 
 ## 📈 Visualizations
+[View All Images](./images)
+
 - Distribution of productivity and entertainment time
 - Boxplots across weather types
 - Correlation heatmap
