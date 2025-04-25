@@ -51,7 +51,7 @@ Separate hypotheses will also be tested for other screen time categories.
 ### Data Collection
 [📁 View Data Folder](./data)
 
-- Weather data will be scraped daily from the General Directorate of Meteorology.
+- Weather data will be scraped daily from the General Directorate of Meteorology.(https://www.google.com/search?client=safari&rls=en&q=meteoroloji+genel+m%C3%BCd%C3%BCrl%C3%BC%C4%9F%C3%BC&ie=UTF-8&oe=UTF-8)
 - Screen time and sleep data will be exported weekly from device usage tracking tools.
 - Exam dates will be manually logged.
 
