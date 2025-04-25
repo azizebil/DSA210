@@ -78,6 +78,46 @@ The data will be collected **daily over a 14-week period**, aligned with the aca
 2. Behavioral insights related to environmental and academic factors.
 3. A simple predictive model estimating daily productivity based on weather and calendar features.
 
+# Weather and Productivity Analysis
+
+## 📚 Project Overview
+This project explores the impact of daily weather conditions and exam periods on productivity, defined by time spent on work-related applications (IDEs, Google Docs, email, etc.). We combine personal screen time, sleep data, and daily weather statistics to uncover behavior patterns.
+
+## 📂 Data Sources
+- Screen Time Data (phone and computer usage reports)
+- Sleep Data (manually logged and exported)
+- Weather Data from Meteoroloji Genel Müdürlüğü
+- Manually logged Exam Dates
+
+## 🛠 Methods
+- Exploratory Data Analysis (EDA)
+- Correlation Heatmaps
+- Statistical Hypothesis Testing:
+  - ANOVA (weather vs productivity)
+  - Chi-Square Test (exam period vs dominant activity)
+
+## 📊 Results Summary
+
+### ANOVA: Weather vs Productivity
+- F-statistic: (insert your value)
+- p-value: (insert your value)
+- **Interpretation**: 
+  - (State whether productivity differs significantly across weather types based on p-value)
+
+### Chi-Square: Exam Period vs Dominant Activity
+- Chi-square statistic: (insert your value)
+- p-value: (insert your value)
+- **Interpretation**:
+  - (State if there's a significant relationship between exam periods and productivity/entertainment dominance)
+
+> 📄 See full detailed results and plots here: [results.md](results.md)
+
+## 📈 Visualizations
+- Distribution of productivity and entertainment time
+- Boxplots across weather types
+- Correlation heatmap
+- Bar plots for exam vs non-exam dominant activities
+
 <!--
 ## Installation
 
