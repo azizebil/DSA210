@@ -110,6 +110,32 @@ The data will be collected **daily over a 14-week period**, aligned with the aca
 - Correlation heatmap
 - Bar plots for exam vs non-exam dominant activities
 
+## 🤖 Machine Learning Results: Predicting Productivity
+
+### 🎯 Goal
+Use weather, sleep, and exam indicators to predict daily **Productivity (min)** spent on work-related apps.
+
+### 🧠 Models Applied
+- **Linear Regression**
+- **Random Forest Regressor**
+
+### 📊 Results Summary
+
+| Model                | MAE (min) | R² Score |
+|---------------------|-----------|----------|
+| Linear Regression    | 41.7      | 0.27     |
+| Random Forest        | 17.1      | 0.89 ✅  |
+
+### 📌 Interpretation
+- **Linear Regression** showed weak performance, with an R² of 0.27, indicating limited ability to model the data.
+- **Random Forest Regressor** performed significantly better, achieving **R² = 0.89**, meaning it explained about 89% of the variance in productivity.
+- This suggests that **weather and sleep** do contain predictive signal, and **non-linear models** are better suited to this task.
+
+### 📈 Visualization
+![Prediction vs Reality](images/ML_Prediction_vs_Reality.png)
+
+> 📁 This plot compares predicted vs actual productivity values for both models. The closer the points are to the red reference line (y = x), the more accurate the prediction.
+
 <!--
 ## Installation
 
